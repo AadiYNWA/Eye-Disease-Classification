@@ -18,9 +18,9 @@ We have proposed the following Augmentation Techniques to be performed on Eye-Fu
   1. Drop Random Pixels
   2. 30 degrees Rotation
   3. Horizontal Flip
-  4. 
 We have used ShufflNetV2 as the backbone architechture for the transfer learning model with pretrained weights from the imagenet dataset and is fine-tuned by adding additional fully-connected layers with the Adam optimizer during training.  
 
 # Dataset
 We used a open source dataset available on Kaggle which consisted of eye fundus images of 4 classes, namely Normal Eye, Cataract, Diabetic Retinopathy and Glaucoma. Our baseline model was trained on roughly 4000 images and presented an accuracy of 87%.
+
 Dataset Link - https://www.kaggle.com/datasets/gunavenkatdoddi/eye-diseases-classification

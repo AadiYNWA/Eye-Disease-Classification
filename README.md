@@ -20,6 +20,7 @@ We have proposed the following Augmentation Techniques to be performed on Eye-Fu
   1. Drop Random Pixels
   2. 30 degrees Rotation
   3. Horizontal Flip
+
 We have used ShufflNetV2 as the backbone architechture for the transfer learning model with pretrained weights from the imagenet dataset and is fine-tuned by adding additional fully-connected layers with the Adam optimizer during training.  
 
 # Training
